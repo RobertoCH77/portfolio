@@ -47,7 +47,7 @@ export default function Home() {
                         className="text-white text-xl sm:text-2xl md:text-2xl lg:text-3xl mb-2"
                     />
 
-                    <div className="w-full h-[170px] md:h-[140px] relative mb-8 md:mb-12 lg:mb-1">
+                    <div className="w-full h-[170px] md:h-[140px] relative mb-12 md:mb-12 lg:mb-1">
                         <div className="absolute top-0 left-0 w-full h-full">
                             <HomeDescription />
                         </div>

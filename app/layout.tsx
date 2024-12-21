@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/custom-ui/header/header";
 import StairTransition from "@/components/layout/page-transition/stairTransition";
+import PageTransition from "@/components/layout/page-transition/pagetransition";
 
 const releway = localFont({
   src: "../app/fonts/Raleway.woff2",
@@ -23,11 +24,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${releway.variable} antialiased`}
+        className={`${releway.variable} antialiased text-white/80`}
       >
       <Header/>
       <StairTransition/>
-        {children}
+      <PageTransition>{children}</PageTransition>
       </body>
     </html>
   );
