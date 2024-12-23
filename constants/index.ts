@@ -4,7 +4,7 @@ export const navbarData = [
     { title: "Servicios", href: "/services"},
     { title: "Acerca de mí", href: "/about-me"},
     { title: "Proyectos", href: "/projects"},
-    { title: "Contacto", href: "/contact"},
+    //{ title: "Contacto", href: "/contact"},
 ];
 
 // data par la seccion de introduccion
