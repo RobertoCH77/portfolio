@@ -40,7 +40,8 @@ const SocialLinks = () => {
                                 </Link>
                             </div>
                         </TooltipTrigger>
-                        <TooltipContent className='bg-hoverColor text-black font-semibold p-1 rounded-md text-sm'>
+                        
+                        <TooltipContent className='bg-white text-black font-semibold p-1 rounded-md text-sm mb-2'>
                             {item?.title}
                         </TooltipContent>
                     </Tooltip>
